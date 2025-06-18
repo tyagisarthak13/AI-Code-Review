@@ -22,7 +22,7 @@ function App() {
 
   async function reviewCode() {
     const response = await axios.post(
-      "https://ai-code-review-r18m.onrender.com",
+      "https://ai-code-review-r18m.onrender.com/ai/get-review",
       {
         code,
       }
